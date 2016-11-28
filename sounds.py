@@ -10,7 +10,7 @@ text2voice = 'espeak'
 sounds_dir = 'sounds'
 filetype = 'mp3'
 debug = True
-bots_channel = 'wcms-bots'
+bots_channel = 'random'
 
 play_regex = re.compile("^play\s([a-z0-9]+)$")
 speak_regex = re.compile("^speak\s([a-zA-Z0-9.,'!?\- ]+)$")
